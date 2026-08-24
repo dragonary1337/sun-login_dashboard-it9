@@ -1,0 +1,50 @@
+body{
+    margin: 50px;
+    line-height: 3.0;
+}
+
+form{
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    background-color: #f2f2f2;
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    font-family: "Comic Sans MS", Gadget, sans-serif;
+    font-weight: bold;
+    color: #000000;
+}
+
+.username{
+    font-weight: bold;
+    color: #cb0e0e;
+}
+
+input[type="text"], input[type="password"]{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 4px;
+}
+
+.password{
+    font-weight: bold;
+    color: #cb0e0e;
+}
+
+button[type="submit"]{
+    width: 100%;
+    background-color: #3026fc;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
