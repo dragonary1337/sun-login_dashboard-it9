@@ -13,3 +13,17 @@ This project demonstrates a simple registration, login, and dashboard flow using
 
 The account username and email are stored in browser local storage for this front-end activity. This is not production authentication.
 
+## GitHub Submission
+
+Create a GitHub repository and run these commands inside the `labact4` folder:
+
+```bash
+git init
+git add .
+git commit -m "Add login registration and dashboard flow"
+git branch -M main
+git remote add origin https://github.com/YOUR-USERNAME/YOUR-REPOSITORY.git
+git push -u origin main
+```
+
+Replace the placeholder GitHub username and repository name, then submit the repository URL.
