@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Dashboard</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <main class="dashboard">
+            <h1>Dashboard</h1>
+            <p>Welcome to your dashboard!</p>
+            <table>
+                <caption>Registered Account</caption>
+                <thead>
+                    <tr>
+                        <th>Username</th>
+                        <th>Email</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td id="account-username">Not available</td>
+                        <td id="account-email">Not available</td>
+                    </tr>
+                </tbody>
+            </table>
+            <a class="page-link" href="login.html">Log out</a>
+        </main>
+        <script>
+            document.getElementById("account-username").textContent = localStorage.getItem("registeredUsername") || "Not available";
+            document.getElementById("account-email").textContent = localStorage.getItem("registeredEmail") || "Not available";
+        </script>
+    </body>
+</html>
